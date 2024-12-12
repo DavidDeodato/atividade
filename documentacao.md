@@ -73,6 +73,24 @@ O acesso físico ao dispositivo pode permitir ataques diretos, como extração d
 
 ---
 
+### Ataque de Firmware Malicioso
+
+Justificativa para o impacto alto: Firmware malicioso pode comprometer diretamente a funcionalidade do dispositivo, permitindo controle total por um atacante. Isso pode resultar em perda de dados, falha de operação e comprometimento de sistemas críticos.
+
+Justificativa para o risco alto: A dificuldade em detectar alterações no firmware e a possibilidade de instalar um firmware malicioso remotamente tornam este ataque altamente provável e perigoso, aumentando o risco geral.
+
+### Exploração de Comunicação Insegura
+
+Justificativa para o impacto alto: Dados transmitidos de forma insegura podem ser interceptados ou alterados, expondo informações sensíveis e comprometendo a integridade do sistema. Isso pode causar prejuízos financeiros e perda de confiança do usuário.
+
+Justificativa para o risco alto: Muitas vezes, sistemas utilizam padrões de comunicação antigos ou mal configurados, tornando a exploração provável. Adicionalmente, ferramentas para interceptar comunicação são amplamente disponíveis, aumentando o risco.
+
+### Vulnerabilidades Físicas
+
+Justificativa para o impacto moderado: Embora possam causar danos como acessos não autorizados ou roubo de dispositivos, ataques físicos geralmente exigem proximidade ao alvo, limitando o impacto em comparação com ataques remotos.
+
+Justificativa para o risco baixo: Requerem acesso físico ao dispositivo, o que depende de fatores como segurança do ambiente e localização. Isso reduz a probabilidade de ocorrência, resultando em um risco menor.
+
 ## Contribuição Individual
 
 | **Nome**         | **Contribuição**                                      |
