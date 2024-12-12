@@ -10,7 +10,7 @@
 ## Relatório técnico
 (organizar os itens analisados no tópico anterior com relatório detalhado)
 
-## Tabela de ataques
+## Tabela de nível de risco dos ataques e impacto
 | Título do ataque | Nível de impacto | Nível de risco  |
 | --- | --- | --- |
 | Ataque de Firmware Malicioso  | Alto | Alto |
