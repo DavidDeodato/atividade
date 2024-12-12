@@ -12,7 +12,11 @@ Durante a análise do projeto, foram identificadas algumas vulnerabilidades que 
 
 ## Análise das Vulnerabilidades
 
-### Ataque de Firmware Malicioso (Falta de Mecanismos de Atualização Segura)
+### Ataque de Firmware Malicioso (Falta de Mecanismos de Atualização Segura), (tópico 4 das seções da OWASP):
+
+**Seção:**
+Falta de mecanismo de atualização segura, isso inclui a falta de validação do firmware no dispositivo, falta de entrega segura (não criptografada em trânsito), falta de mecanismos anti-rollback e falta de notificações sobre mudanças de segurança devido a atualizações.
+
 
 **Descrição:**  
 Um atacante pode comprometer a cadeia de fornecimento, injetando um firmware malicioso no ESP32. Esse firmware pode capturar informações sensíveis, enviá-las para servidores não autorizados ou desativar o dispositivo.
@@ -23,7 +27,12 @@ Um atacante pode comprometer a cadeia de fornecimento, injetando um firmware mal
 
 ---
 
-### Exploração de Comunicação Insegura (Serviço de Rede Inseguro)
+### Exploração de Comunicação Insegura (Serviço de Rede Inseguro), (tópico 2 das seções da OWASP)
+
+**Seção:**
+Serviços de rede inseguros
+Serviços de rede desnecessários ou inseguros em execução no próprio dispositivo, especialmente aqueles expostos à internet, que comprometem a confidencialidade, integridade/autenticidade ou disponibilidade das informações ou permitem controle não autorizado.
+
 
 **Descrição:**  
 Se os dados transmitidos pelo ESP32 não forem criptografados, um atacante pode interceptar ou modificar as informações (ataque man-in-the-middle), comprometendo a integridade do monitoramento.
