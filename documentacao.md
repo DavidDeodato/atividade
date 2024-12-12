@@ -68,7 +68,11 @@ O acesso físico ao dispositivo pode permitir ataques diretos, como extração d
 
 | **Nome**         | **Contribuição**                                      |
 |-------------------|------------------------------------------------------|
-| Nome do Integrante 1 | Identificação e análise de ataques relacionados ao firmware. |
-| Nome do Integrante 2 | Análise das vulnerabilidades de comunicação e mitigação. |
-| Nome do Integrante 3 | Levantamento de possíveis vulnerabilidades físicas e soluções. |
+| Cecília | Organização e documentação da ponderada. |
+| Daniel | Escreveu o tópico 1. |
+| David | Escreveu o tópico 2. |
+| Otávio | Organização e documentação da ponderada. |
+| Thalyta | Escreveu o tópico 3. |
+| Kauan | Escreveu o tópico 1. |
+| Milena | Escreveu o tópico 3. |
 
